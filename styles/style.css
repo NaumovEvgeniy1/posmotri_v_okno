@@ -90,11 +90,6 @@ ol {
   width: 100%;
 }
 
-.cards-list-item-template {
-  display: flex;
-  flex-direction: column;
-}
-
 .result {
   display: flex;
   flex-direction: column;
@@ -275,6 +270,8 @@ ol {
 
 .content__video-card-title {
   font-family: Oswald, sans-serif;
+  text-overflow: ellipsis;
+  max-width: 200px;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
