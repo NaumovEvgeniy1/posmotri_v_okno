@@ -271,6 +271,7 @@ ol {
 .content__video-card-title {
   font-family: Oswald, sans-serif;
   text-overflow: ellipsis;
+  max-inline-size: 200px;
   max-width: 200px;
   font-size: 30px;
   font-weight: 700;
